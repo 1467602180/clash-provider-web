@@ -9,7 +9,7 @@ import (
 
 dagger.#Plan & {
 	client:filesystem: {
-		"./build": write: contents: actions.build.build.output
+		"./dist": write: contents: actions.build.build.output
 	}
 
 	actions: {
