@@ -1,0 +1,7 @@
+.center {
+  @apply flex justify-center items-center;
+}
+
+.hscrollbar {
+  @apply scrollbar scrollbar-thumb-gray-200 scrollbar-track-gray-100 scrollbar-thumb-rounded;
+}

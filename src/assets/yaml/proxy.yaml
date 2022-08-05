@@ -1,0 +1,6 @@
+proxies:
+  - name: "vps"
+    type: trojan
+    server: please edit me
+    port: 443
+    password: please edit me
