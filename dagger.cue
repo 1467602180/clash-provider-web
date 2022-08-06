@@ -18,7 +18,7 @@ dagger.#Plan & {
 			path: "."
 			exclude: [
 				"node_modules",
-				"build",
+				"dist",
 				"*.cue",
 				"*.md",
 				".git",
@@ -29,6 +29,7 @@ dagger.#Plan & {
 		build: {
 			build:yarn.#Script & {
 			name:   "build"
+			outputDir: "./dist"
 			source: actions.source.output
 		}
 		}
